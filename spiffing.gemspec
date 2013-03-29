@@ -15,5 +15,5 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($/)
   gem.executables   = ["spiffing"]
   gem.require_paths = ["lib"]
-  gem.add_development_dependency("commander")
+  gem.add_runtime_dependency("commander")
 end

@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     spiffing (0.0.1)
+      commander
 
 GEM
   remote: https://rubygems.org/
@@ -14,5 +15,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  commander
   spiffing!
