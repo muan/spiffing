@@ -1,6 +1,8 @@
-# Spiffing gem
+# Spiffing
 
-Write CSS using proper English in ruby with Spiffing gem. Spiffing gem is a ruby gem version of [Spiffing CSS](http://spiffingcss.com/) by [@idiot](https://twitter.com/idiot), a CSS preprocessor for British developers in the wild.
+Write CSS using proper English in ruby apps with Spiffing. 
+
+Spiffing is a ruby gem version of [Spiffing CSS](http://spiffingcss.com/) by [@idiot](https://twitter.com/idiot), a CSS preprocessor for British developers, or developers who prefer to write proper English.
 
 ## Installation
 
@@ -26,4 +28,8 @@ To convert multiple well-spelt CSS files
 
     spiffing convert stylesheets/hownice.css stylesheets/reset.css stylesheets/style.css
 
-Your well-spelt CSS files would be converted and written into the same directory with `-converted` following the original file name, i.e. by running the command `spiffing convert /stylesheets/hownice.css`, a `/stylesheets/hownice-converted.css` will be created.
+Your well-spelt CSS files would be converted and written into the same directory with `-converted` following the original file name.
+
+## Disclaimer
+
+    content: "Have some humour" !please;
