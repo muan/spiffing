@@ -30,6 +30,38 @@ To convert multiple well-spelt CSS files
 
 Your well-spelt CSS files would be converted and written into the same directory with `-converted` following the original file name.
 
+## Example
+
+    /* Your well-spelt CSS */
+    
+    body {
+      background-colour: grey !please;
+      transparency: 0.5;
+      text-align: centre;
+      font-weight: plump;
+      text-transform: capitalise;
+    }
+    
+    .frame {
+      background-photograph: url('/queen.png') !please;
+    }
+
+becomes
+
+    /* Output CSS */
+    
+    body {
+      background-color: gray !important;
+      opacity: 0.5;
+      text-align: center;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+    
+    .frame {
+      background-image: url('/queen.png') !important;
+    }
+
 ## Disclaimer
 
     content: "Have some humour" !please;
