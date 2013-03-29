@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+
+require 'spiffing'
+require 'rubygems'
+require 'commander/import'
+
+program :version, Spiffing::VERSION
+program :description, 'Write CSS using proper English'
+ 
+command :convert do |c|
+  c.syntax = 'spiffing convert [filenames] [options]'
+  c.description = "Converting css files"
+  c.example 'Convert a well-spelt CSS file', 'spiffing convert stylesheets/style.css'
+  c.example 'Convert multiple well-spelt CSS files', 'spiffing convert stylesheets/hownice.css stylesheets/reset.css stylesheets/style.css'
+  
+  c.action do |args, options|
+    args.each do |file|
+      css = Spiffing::CSS.new(file)
+      css.mugglified
+    end
+  end
+
+end
+
+
