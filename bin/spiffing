@@ -14,9 +14,13 @@ command :convert do |c|
   c.example 'Convert multiple well-spelt CSS files', 'spiffing convert stylesheets/hownice.css stylesheets/reset.css stylesheets/style.css'
   
   c.action do |args, options|
-    args.each do |file|
-      css = Spiffing::CSS.new(file)
-      css.mugglified
+    args.each do |filepath|
+      begin
+        spiff = Spiffing::CSSConverter.new filepath
+        spiff.mugglify
+      rescue Errno::ENOENT
+        puts "- We cannot find your file."
+      end
     end
   end
 

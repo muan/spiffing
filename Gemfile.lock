@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    spiffing (0.0.1)
+    spiffing (0.0.2)
       commander
 
 GEM
