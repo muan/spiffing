@@ -2,7 +2,7 @@
 
 Write CSS using proper English in ruby apps with Spiffing. 
 
-Spiffing is a ruby gem version of [Spiffing CSS](http://spiffingcss.com/) by [@idiot](https://twitter.com/idiot), a CSS preprocessor for British developers, or developers who prefer to write proper English.
+Spiffing is a ruby gem version of [Spiffing CSS](https://github.com/idiot/Spiffing) by [@idiot](https://twitter.com/idiot), a CSS preprocessor for British developers, or developers who prefer to write proper English.
 
 ## Installation
 
